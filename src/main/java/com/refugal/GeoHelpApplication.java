@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PolymerApplication {
+public class GeoHelpApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PolymerApplication.class, args);
+		SpringApplication.run(GeoHelpApplication.class, args);
 	}
 }
