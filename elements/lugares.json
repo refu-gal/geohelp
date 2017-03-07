@@ -1,0 +1,41 @@
+{
+  "error": "",
+  "propiedades": [
+    {
+      "propietario": "Sofía Novo",
+      "lugar": "Barrantes",
+      "superficie": 10,
+      "descripcion": "Una casa bonita",
+      "latitude": 42.4949833,
+      "longitude": -8.7890875,
+      "imageUrl": "casa-galicia5.jpg"
+    },
+    {
+      "propietario": "Antonio Fontán",
+      "lugar": "Armenteira",
+      "superficie": 10,
+      "descripcion": "Una casa bonita",
+      "latitude": 42.4771322,
+      "longitude": -8.7860284,
+      "imageUrl": "casa-galicia1.jpg"
+    },
+    {
+      "propietario": "Eladio Souto",
+      "lugar": "Vilagarcía",
+      "superficie": 10,
+      "descripcion": "Una casa bonita",
+      "latitude": 42.4927192,
+      "longitude": -8.7808419,
+      "imageUrl": "casa-galicia3.jpg"
+    },
+    {
+      "propietario": "Josefa Amor",
+      "lugar": "A Illa de Arousa",
+      "superficie": 10,
+      "descripcion": "Una casa bonita",
+      "latitude": 42.4931781,
+      "longitude": -8.7799943,
+      "imageUrl": "casa-galicia4.jpg"
+    }
+  ]
+}
