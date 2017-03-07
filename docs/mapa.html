@@ -1,28 +1,23 @@
-<!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <!-- polyfill -->
     <script src="js/bower_components/webcomponentsjs/webcomponents.min.js"></script>
 
     <!-- Polymer core elements -->
-    <link rel="import" href="js/bower_components/paper-toolbar/paper-toolbar.html" />
-    <link rel="import" href="elements/propiedad-form.html" />
+    <link rel="import" href="elements/mapa-propiedades.html" />
 
-
-
-    <link href="bootstrap/dist/css/bootstrap.min.css"
+    <link href="bootstrap/dist/css/bootstrap.css"
           rel="stylesheet" media="screen" />
-    <link href="css/freelancer.css"
+    <link href="css/freelancer.min.css"
           rel="stylesheet" media="screen" />
 
     <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
 </head>
 
-<body id="page-top" class="index"  style="  background: #18BC9C;">
+<body id="page-top" class="index">
 
 <!-- Navigation -->
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
@@ -49,11 +44,11 @@
                 </li>
 
                 <li class="page-scroll">
-                    <a href="mapa">Mapa</a>
+                    <a href="mapa.html">Mapa</a>
                 </li>
 
                 <li class="page-scroll">
-                    <a href="donantes">Colaboradores</a>
+                    <a href="donantes.html">Colaboradores</a>
                 </li>
                 <li class="page-scroll">
                     <a href="#about">Experiencias</a>
@@ -71,23 +66,15 @@
 <header>
     <div class="container">
         <div class="row">
-            <h2>Introduce datos de la propiedad</h2>
+            <h2></h2>
+        </div>
+
+
+        <div class="row" style="margin-top:10px;">
+            <mapa-propiedades></mapa-propiedades>
         </div>
     </div>
 </header>
-<div class="container">
-
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-
-            <propiedad-form></propiedad-form>
-
-
-
-        </div>
-    </div>
-
-</div>
 
 
 

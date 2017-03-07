@@ -5,17 +5,20 @@
     <script src="js/bower_components/webcomponentsjs/webcomponents.min.js"></script>
 
     <!-- Polymer core elements -->
-    <link rel="import" href="elements/mapa-propiedades.html" />
+    <link rel="import" href="js/bower_components/paper-toolbar/paper-toolbar.html" />
+    <link rel="import" href="js/bower_components/paper-button/paper-button.html" />
 
-    <link href="bootstrap/dist/css/bootstrap.css"
-          rel="stylesheet" media="screen" />
-    <link href="css/freelancer.min.css"
-          rel="stylesheet" media="screen" />
+    <link href="bootstrap/dist/css/bootstrap.css" rel="stylesheet" media="screen" />
+    <link href="css/freelancer.css" rel="stylesheet" media="screen" />
 
     <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+
+
 </head>
+
 
 <body id="page-top" class="index">
 
@@ -44,11 +47,11 @@
                 </li>
 
                 <li class="page-scroll">
-                    <a href="mapa">Mapa</a>
+                    <a href="mapa.html">Mapa</a>
                 </li>
 
                 <li class="page-scroll">
-                    <a href="donantes">Colaboradores</a>
+                    <a href="donantes.html">Colaboradores</a>
                 </li>
                 <li class="page-scroll">
                     <a href="#about">Experiencias</a>
@@ -61,21 +64,59 @@
     <!-- /.container-fluid -->
 </nav>
 
-
 <!-- Header -->
 <header>
     <div class="container">
         <div class="row">
-            <h2></h2>
+            <div class="col-lg-6">
+                <h1 style="text-align: left;">AYUDA A DAR LA OPORTUNIDAD DE UNA NUEVA VIDA A UNA FAMILIA DE
+                REFUGIADOS</h1>
+            </div>
+
+            <div class="col-lg-6">
+                <img width="100%" src="img/flujo.png" />
+            </div>
         </div>
 
+        <div class="row">
+            <div class="col-lg-6">
+                <h4 style="text-align: left;float:left;margin-right:10px;">¿Tienes una casa desocupada?</h4>
+                <div style="float:left">
+                    <a href="donantes.html">
+                        <paper-button raised="true" class="primary fancy" on-tap="enviaDatos">PUEDES COLABORAR</paper-button>
+                    </a>
+                </div>
+            </div>
 
-        <div class="row" style="margin-top:10px;">
-            <mapa-propiedades></mapa-propiedades>
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-lg-12">
+                    <a href="mapa.html">
+                        <div style="margin-top:-70px">
+                            <img width="30%" src="img/location-map.png" />
+                        </div>
+                    </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div style="text-align:left;margin-top:-20px;color: #000" class="col-lg-12">
+                        <h5 style="text-align:left">New life es un mapa que visibiliza y conecta a</h5>
+                        <ul style="text-align:left">
+                            <li>Organizaciones que defienden los intereses de
+                                los refugiados</li>
+                            <li>Administraciones locales de zonas rurales</li>
+                            <li>Propietarios de casas y
+                                parcelas que actualmente no tienen uso.</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
         </div>
+
     </div>
 </header>
-
 
 
 
