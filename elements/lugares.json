@@ -8,7 +8,7 @@
       "descripcion": "Una casa bonita",
       "latitude": 42.4949833,
       "longitude": -8.7890875,
-      "imageUrl": "casa-galicia5.jpg"
+      "imageUrl": "img/casa-galicia5.jpg"
     },
     {
       "propietario": "Antonio Fontán",
@@ -17,7 +17,7 @@
       "descripcion": "Una casa bonita",
       "latitude": 42.4771322,
       "longitude": -8.7860284,
-      "imageUrl": "casa-galicia1.jpg"
+      "imageUrl": "img/casa-galicia1.jpg"
     },
     {
       "propietario": "Eladio Souto",
@@ -26,7 +26,7 @@
       "descripcion": "Una casa bonita",
       "latitude": 42.4927192,
       "longitude": -8.7808419,
-      "imageUrl": "casa-galicia3.jpg"
+      "imageUrl": "img/casa-galicia3.jpg"
     },
     {
       "propietario": "Josefa Amor",
@@ -35,7 +35,7 @@
       "descripcion": "Una casa bonita",
       "latitude": 42.4931781,
       "longitude": -8.7799943,
-      "imageUrl": "casa-galicia4.jpg"
+      "imageUrl": "img/casa-galicia4.jpg"
     }
   ]
 }
